@@ -5,7 +5,7 @@ async function connectDB() {
     const connection = await mysql.createConnection({
       host: 'localhost',
       user: 'root',
-      password: '',
+      password: '12345',
       database: 'mindspace_db'
     });
     console.log('MySQL connected...');
